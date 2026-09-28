@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kristian Calderon | Engineering Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <span class="nav-brand">Kristian Calderon</span>
+    <div class="nav-links">
+      <a href="index.html" class="active">Portfolio Home</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="hero-section">
+      <h2>Electrical & Computer Engineering Portfolio</h2>
+      <p class="hero-subtitle">
+        B.S. Electrical & Computer Engineering | University of Southern California
+      </p>
+      <p class="hero-bio">
+        Focusing on embedded systems, hardware-in-the-loop (HIL) testing, PCB design, and real-time C/C++ firmware development.
+      </p>
+    </header>
+
+    <hr>
+
+    <section class="projects-section">
+      <h3>Featured Engineering Projects</h3>
+
+      <div class="project-grid">
+
+        <!-- Laser Tracking Device -->
+        <article class="project-card">
+          <div class="card-header">
+            <h4>Laser Tracking Device</h4>
+            <span class="project-date">May 2026</span>
+          </div>
+          <ul class="card-bullets">
+            <li>Automated electromechanical targeting system tracking moving targets via OpenCV computer vision and dual-servo pan-tilt mechanism.</li>
+            <li>Real-time serial protocol between Python processing on host PC and Arduino Nano 33 BLE for PWM servo control.</li>
+            <li>EEPROM-backed non-volatile data logging for targeting history and rotary encoder calibration offsets.</li>
+          </ul>
+          <a href="laser-tracking/index.html" class="card-link">View Project Details & Steps →</a>
+        </article>
+
+        <!-- DMX Lighting Controller -->
+        <article class="project-card">
+          <div class="card-header">
+            <h4>STM32 DMX512 Controller</h4>
+            <span class="project-date">Dec 2025 - Present</span>
+          </div>
+          <ul class="card-bullets">
+            <li>STM32-based embedded controller parsing DMX512 lighting protocol signals via UART with hardware LIN break detection and DMA.</li>
+            <li>Multi-channel PWM outputs configured across hardware timers for low-latency RGBW LED color mixing.</li>
+            <li>Prototyped bare-metal C firmware on ATmega328P before migrating to STM32 MCU architecture.</li>
+          </ul>
+          <a href="dmx-lighting-prototype/dmx-lighting-prototype.html" class="card-link">View Project Details & Steps →</a>
+        </article>
+
+        <!-- Custom Electric Guitar -->
+        <article class="project-card">
+          <div class="card-header">
+            <h4>Custom Electric Guitar & 4-Layer PCB</h4>
+            <span class="project-date">Dec 2025</span>
+          </div>
+          <ul class="card-bullets">
+            <li>Engineered custom 4-layer PCB in KiCad with active bandstop notch filter and LM324 gain stage for 10x signal amplification.</li>
+            <li>Optimized plane layout and trace routing to reduce overall board footprint by 50% and fabrication costs by 20%.</li>
+            <li>Validated frequency attenuation on oscilloscope before physical assembly into cigar-box body structure.</li>
+          </ul>
+          <a href="electric-guitar/electric-guitar.html" class="card-link">View Project Details & Steps →</a>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
