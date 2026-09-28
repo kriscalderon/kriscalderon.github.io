@@ -1,0 +1,129 @@
+/* Base Layout & Typography (Matches Subpage Formatting) */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Universal Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.nav-links a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #0066cc;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  text-decoration: underline;
+  color: #004499;
+  font-weight: 600;
+}
+
+/* Hero Section */
+.hero-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #111;
+}
+
+.hero-subtitle {
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.hero-bio {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 25px 0;
+}
+
+/* Project Cards Grid */
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: #fafafa;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: #b0b0b0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 12px;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 8px;
+}
+
+.card-header h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.project-date {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #666;
+}
+
+.card-bullets {
+  padding-left: 20px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.card-bullets li {
+  margin-bottom: 6px;
+}
+
+.card-link {
+  display: inline-block;
+  color: #0066cc;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.card-link:hover {
+  text-decoration: underline;
+}
